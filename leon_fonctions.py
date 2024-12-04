@@ -8,6 +8,7 @@ def jouer():
         joueur_suivant()  # Change de joueur
     resultat()  # Affiche le résultat de la partie une fois finie
 
+
 # Fonction qui gère le tour d'un joueur
 def tour(joueur):
     print("C'est le tour du joueur : ", joueur)  # Affiche quel joueur doit jouer
