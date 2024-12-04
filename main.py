@@ -43,9 +43,6 @@ def choix_joueur():
         else:  # Si l'entrée n'est pas valide, on redemande
             joueur_actuel = input("Veuillez choisir soit une croix (X), soit un rond (O) : ")
 
-# Appeler la fonction pour tester le choix du joueur
-choix_joueur()
-
 # Fonction pour afficher l'état actuel de la grille
 def affichage_grille():
     print("\n")  # Ajoute une ligne vide avant d'afficher la grille pour la rendre plus lisible
